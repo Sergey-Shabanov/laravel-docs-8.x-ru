@@ -36,7 +36,7 @@
 
 Telescope makes a wonderful companion to your local Laravel development environment. Telescope provides insight into the requests coming into your application, exceptions, log entries, database queries, queued jobs, mail, notifications, cache operations, scheduled tasks, variable dumps, and more.
 
-<img src="https://laravel.com/img/docs/telescope-example.png">
+<img src="./img/telescope-example.png">
 
 <a name="installation"></a>
 ## Installation
@@ -288,7 +288,7 @@ The command watcher records the arguments, options, exit code, and output whenev
 <a name="dump-watcher"></a>
 ### Dump Watcher
 
-The dump watcher records and displays your variable dumps in Telescope. When using Laravel, variables may be dumped using the global `dump` function. The dump watcher tab must be open in a browser for the dump to be recorded, otherwise the dumps will be ignored by the watcher.
+The dump watcher records and displays your variable dumps in Telescope. When using Laravel, variables may be dumped using the global `dump` function. The dump watcher tab must be open in a browser for the dump to be recorded, otherwise, the dumps will be ignored by the watcher.
 
 <a name="event-watcher"></a>
 ### Event Watcher

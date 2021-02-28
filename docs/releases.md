@@ -148,7 +148,7 @@ _Автор: [Taylor Otwell](https://github.com/taylorotwell)_.
 <a name="job-batching"></a>
 ### Пакетная обработка заданий
 
-_Авторы: by [Taylor Otwell](https://github.com/taylorotwell) и [Mohamed Said](https://github.com/themsaid)_.
+_Авторы: [Taylor Otwell](https://github.com/taylorotwell) и [Mohamed Said](https://github.com/themsaid)_.
 
 Функционал пакетной обработки заданий Laravel позволяет вам легко выполнить пакет заданий, по завершению которого дополнительно совершить определенные действия.
 
@@ -290,7 +290,7 @@ _Автор: [Taylor Otwell](https://github.com/taylorotwell)_.
         //
     });
 
-Кроме того, анонимные слушатели событий теперь могут быть помечены как доступные для очереди с помощью функционала `Illuminate\Events\queueable`:
+Кроме того, анонимные слушатели событий теперь могут быть помечены как доступные для очереди с помощью функции `Illuminate\Events\queueable`:
 
     use App\Events\PodcastProcessed;
     use function Illuminate\Events\queueable;
@@ -300,7 +300,7 @@ _Автор: [Taylor Otwell](https://github.com/taylorotwell)_.
         //
     }));
 
-Как и задания в очереди, вы можете использовать методы onConnection`, `onQueue`, и `delay` для настройки выполнения слушателя в очереди:
+Как и задания в очереди, вы можете использовать методы `onConnection`, `onQueue`, и `delay` для настройки выполнения слушателя в очереди:
 
     Event::listen(queueable(function (PodcastProcessed $event) {
         //
